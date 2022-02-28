@@ -5,3 +5,4 @@ add the start quiz button on the html
 final touches on the index.html
 compleate the highscore.html
 we added the mad style. 
+add all the html vars
