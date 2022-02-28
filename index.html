@@ -17,5 +17,32 @@
             </ul>
         </nav>
     </header>
+    <div class="start-info">
+        <h1>Code Quiz</h1>
+        <p>answer the following code-related questions within the time limit.
+        <br />wrong answers penalize your time by 10 seconds!</p>
+
+        <button type="button" id="start" class="btn btn-info">Start Quiz</button>
+    </div>
+     
+      <div class="hide" id="questions">
+        <h2 id="question-prompt"></h2>
+        <div id="question-choices" class="choices d-grid gap-2 col-6 mx-auto"></div>
+    </div>
+
+    <div id="right-wrong" class="feedback hide"></div>
+
+    <div class="hide" id="highscore-input">
+        <h2>
+            Done! <br />
+            Your final score is: <span id="final-score"></span>
+        </h2>
+        <p>
+            Enter your name:
+            <input type="text" id="player" name="titles" /> <br />
+            <button id="submit" class="btn btn-success">Submit</button>
+        </p>
+    </div>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
