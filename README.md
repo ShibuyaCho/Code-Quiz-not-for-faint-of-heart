@@ -4,3 +4,4 @@ starting off i added the html base and then got to work adding a highscore butto
 add the start quiz button on the html
 final touches on the index.html
 compleate the highscore.html
+we added the mad style. 
